@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.data-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.data {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+#alerts {
+    color: green;
+}
+
+.controls {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
